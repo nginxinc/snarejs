@@ -23,7 +23,7 @@ npm install snarejs
 ###API
 
 ```
-var snareInstance = snare(fn');
+var snareInstance = snare(fn);
 ```
 
 First argument is a function where you want to intercept calls of another functions. 
