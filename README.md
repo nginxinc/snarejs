@@ -28,7 +28,7 @@ var snareInstance = snare(fn);
 
 First argument is a function where you want to intercept calls of another functions. 
 When babel plugin finds the initialization it will resolve passed argument and will find a module where function is declared.
-The function can be received in any way what you prefer: ES6, common.js require.
+The function can be received in any way that you prefer: ES6, common.js require.
 
 ```js
 let fn = require('./module');
